@@ -1,0 +1,21 @@
+{
+  "name": "sigma-fa2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "kotatsu serve --typescript index.ts --public / ./public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphology": "^0.21.1",
+    "graphology-generators": "^0.11.0",
+    "graphology-layout-forceatlas2": "^0.6.1",
+    "sigma": "latest"
+  },
+  "devDependencies": {
+    "kotatsu": "^0.22.3",
+    "typescript": "4.4.4"
+  },
+  "keywords": []
+}
